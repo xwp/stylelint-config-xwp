@@ -3,6 +3,8 @@
 
 > XWP shareable config for stylelint that extends [WordPress CSS Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/).
 
+This project is based on [stylelint-config-wordpress](https://github.com/WordPress-Coding-Standards/stylelint-config-wordpress).
+
 ## Table of Contents
 
 -   [Why not just WordPress standards?](#why-not-just-wordpress-standards)
