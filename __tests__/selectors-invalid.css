@@ -1,0 +1,3 @@
+input[type="text"] { /* Should be [type='text'] */
+	line-height: 110% /* Also doubly incorrect */
+}

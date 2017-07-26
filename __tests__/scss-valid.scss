@@ -1,0 +1,31 @@
+@import 'path/to/foo.scss';
+
+@function fooBar {
+	@return 1;
+}
+
+@mixin foo {
+	@content;
+}
+
+$map: (
+	'foo': 1,
+	'bar': 2,
+	'baz': 3
+);
+
+@if $foo == block {
+	display: block;
+} @elseif $foo == table {
+	display: table;
+} @else {
+	display: inline-block;
+}
+
+@import '../some/url';
+@import '../another/url';
+
+b {
+	@include foo;
+	@include bar;
+}
